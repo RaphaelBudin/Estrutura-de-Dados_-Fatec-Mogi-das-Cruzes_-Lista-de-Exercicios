@@ -1,0 +1,7 @@
+Mudem/deletem os textos 
+Troquem a estrutura/ordem do programa
+Mudem os nomes das funções
+
+Depois de tudo isso vai ser necessário fazer o seu próprio teste de mesa, afinal o texto será diferente
+
+Confio em vocês povo

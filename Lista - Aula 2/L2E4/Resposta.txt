@@ -1,0 +1,10 @@
+Primeiramente, o programa como consta na apostila não rodou de primeira no Pelles C.
+Foi necessário alterar o padrão para C99, ao invés do C17 default do Pelles.
+O argumento 's' na função empilha() precisou de explicit casting para (int) antes de ser executada corretamente.
+Também foi necessário mudar o puts() dentro do while para printf("%i", desempilha(P)) para que mostrasse algum valor.
+Quando compilou e rodou, ele apontava para endereços de memória aleatórios
+
+Rodei o código no compilador C online (https://www.onlinegdb.com/online_c_compiler).
+Ele sempre deu "segmentation fault (Core dumped)".
+
+O programa está acessando endereços de memória de outros programas, o que é ilegal.
