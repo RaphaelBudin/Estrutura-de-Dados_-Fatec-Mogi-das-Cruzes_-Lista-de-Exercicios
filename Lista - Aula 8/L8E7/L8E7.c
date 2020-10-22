@@ -61,9 +61,9 @@ void destroi(Lista *L){
 }
 
 int ultimo(Lista L){
-	int ultimo = 0;
-	while (L->prox != NULL){
-		L = L->prox;
+	int ultimo = 0;		//Ultimo item, que será retornado pela função
+	while (L->prox != NULL){ //Enquanto não estivermos no último nó...
+		L = L->prox;		//Passa para o próximo nó
 	}
 	ultimo = L->item;
 	return (int)ultimo;

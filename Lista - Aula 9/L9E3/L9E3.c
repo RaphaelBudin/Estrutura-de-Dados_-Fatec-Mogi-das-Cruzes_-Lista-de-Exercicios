@@ -30,11 +30,11 @@ void exibe(Lista L){
 }
 
 void ins_rec(Item itemX, Lista *L){
-	if (*L == NULL || (*L)->item > itemX){
-		*L = no(itemX, *L);
-		return;
+	if (*L == NULL || (*L)->item > itemX){ //Casos bases: Nó endereço NULL ou item da lista ordnada ou ->item > que itemX
+		*L = no(itemX, *L);	//Pode adicionar o nó
+		return;		
 	}
-	ins_rec(itemX, &(*L)->prox);
+	ins_rec(itemX, &(*L)->prox); //Chama a função recursivamente com o endereço do próximo nó
 }
 
 

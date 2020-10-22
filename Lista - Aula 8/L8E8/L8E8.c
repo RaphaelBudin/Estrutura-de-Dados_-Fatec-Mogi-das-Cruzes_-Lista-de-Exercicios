@@ -70,11 +70,11 @@ int ultimo(Lista L){
 }
 
 _Bool pertence(Item valor, Lista L){
-	while (L->prox != NULL){
-		if (L->item == valor) return 1;
-		L = L->prox;	
+	while (L->prox != NULL){		//Garante que todos os elementos serão percorridos
+		if (L->item == valor) return 1; //Encontrou, logo pertence
+		L = L->prox;				//Caso não tenha encontrado, passa para o próximo nó
 	}
-	return 0;
+	return 0;					//Caso não tenha encontrado, retorna falso
 }
 
 int main(void){

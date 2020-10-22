@@ -11,10 +11,10 @@
 			<property name="Line7" type="integer">64</property>
 		</category>
 		<category name="Window">
-			<property name="Left" type="integer">4294967288</property>
-			<property name="Top" type="integer">4294967265</property>
-			<property name="Right" type="integer">1276</property>
-			<property name="Bottom" type="integer">462</property>
+			<property name="Left" type="integer">4294967287</property>
+			<property name="Top" type="integer">4294967258</property>
+			<property name="Right" type="integer">1247</property>
+			<property name="Bottom" type="integer">397</property>
 			<property name="Maximized" type="integer">1</property>
 			<property name="Active" type="integer">1</property>
 		</category>
